@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Github, Linkedin, Mail } from "lucide-react"
-import myImage from '../assets/my-image.jpg';
 
 export default function Home() {
   return (
@@ -146,17 +145,17 @@ export default function Home() {
             <div key={item} className="group">
               <div className="relative overflow-hidden rounded-lg mb-4">
                 <Image
-                  src={myImage}
+                  src={`https://github.com/NineNachon/Portfolio-final/blob/main/assets/Screenshot%202025-05-09%20200110.png?raw=true`}
                   alt="Project thumbnail"
                   width={600}
                   height={400}
                   className="w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute top-4 right-4 flex space-x-2">
-                  <Link href="#" className="bg-black/70 p-2 rounded-full hover:bg-black">
+                  <Link href="https://github.com/NineNachon/record-reach-fitness" className="bg-black/70 p-2 rounded-full hover:bg-black">
                     <Github className="w-4 h-4" />
                   </Link>
-                  <Link href="#" className="bg-black/70 p-2 rounded-full hover:bg-black">
+                  <Link href="https://record-reach-fitness.lovable.app/" className="bg-black/70 p-2 rounded-full hover:bg-black">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -182,7 +181,7 @@ export default function Home() {
               reworked with AI integration and a Supabase-powered backend.
               </p>
               <div className="text-xs text-gray-400">
-                <span>React</span> · <span>Tailwind</span> · <span>TypeScript</span>
+                <span>React</span> · <span>Tailwind</span> · <span>Typescript</span>
               </div>
             </div>
           ))}
@@ -195,20 +194,20 @@ export default function Home() {
 
         <div className="flex justify-center space-x-4">
           <Link
-            href="mailto:email@example.com"
+            href="mailto:nachonnine@gmail.com"
             className="border border-gray-700 p-3 rounded-md hover:border-amber-300 hover:text-amber-300 transition-colors"
           >
             <Mail className="w-5 h-5" />
           </Link>
           <Link
-            href="https://linkedin.com"
+            href="www.linkedin.com/in/nachon-boriboonthana"
             target="_blank"
             className="border border-gray-700 p-3 rounded-md hover:border-amber-300 hover:text-amber-300 transition-colors"
           >
             <Linkedin className="w-5 h-5" />
           </Link>
           <Link
-            href="https://github.com"
+            href="https://github.com/NineNachon"
             target="_blank"
             className="border border-gray-700 p-3 rounded-md hover:border-amber-300 hover:text-amber-300 transition-colors"
           >
@@ -219,7 +218,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="container mx-auto px-4 py-8 border-t border-gray-800 text-center text-sm text-gray-500">
-        <p>© {new Date().getFullYear()} Nina Anderson. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Nachon Boriboonthana. All rights reserved.</p>
       </footer>
     </main>
   )
