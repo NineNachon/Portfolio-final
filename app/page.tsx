@@ -118,7 +118,7 @@ export default function Home() {
             <ul className="text-sm text-gray-300 space-y-2">
               <li>MEAN stack (MongoDB, Express.js, Angular, 
                 Node.js) (intermediate) </li>
-              <li>MongoDB (Basicr)</li>
+              <li>MongoDB (Basic)</li>
               <li>RESTful APIs (Intermediate)</li>
               <li>PostgreSQL (Beginner)</li>
             </ul>
