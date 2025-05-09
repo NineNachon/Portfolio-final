@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Github, Linkedin, Mail } from "lucide-react"
+import myImage from '../assets/my-image.jpg';
 
 export default function Home() {
   return (
@@ -25,11 +26,11 @@ export default function Home() {
       <section className="container mx-auto px-4 py-20">
         <div className="max-w-3xl">
           <p className="text-amber-300 mb-2">Hey, I'm</p>
-          <h1 className="text-5xl md:text-6xl font-bold text-amber-100 mb-6">Nina Anderson</h1>
+          <h1 className="text-5xl md:text-6xl font-bold text-amber-100 mb-6">Nachon Boriboonthana</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl">
-            I'm a software engineer based in New York. I enjoy learning new tech, working with others, and solving real
-            problems with code. I'm looking for opportunities where I can grow, build useful things, and be part of a
-            creative tech team.
+          I'm a software engineer based in Bangkok, I enjoy learning new tools, working with others, and solving 
+          real problems with code. I'm looking for opportunities where I can grow, build useful things, 
+          and be part of a creative tech team.
           </p>
           <div className="flex items-center">
             <Link
@@ -50,22 +51,22 @@ export default function Home() {
           <h3 className="text-sm text-gray-400 mb-6">EDUCATION</h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h4 className="font-medium mb-1">NEW YORK UNIVERSITY</h4>
-              <p className="text-sm text-gray-400 mb-2">2018 - 2022</p>
-              <p className="text-sm text-gray-300">Bachelor of Science in Computer Science</p>
+              <h4 className="font-medium mb-1">BANGKOK CHRISTIAN COLLEGE</h4>
+              <p className="text-sm text-gray-400 mb-2">2004 - 2016</p>
+              <p className="text-sm text-gray-300">High school</p>
               <p className="text-sm text-gray-300">Mathematics and English</p>
             </div>
             <div>
-              <h4 className="font-medium mb-1">CODING BOOTCAMP</h4>
-              <p className="text-sm text-gray-400 mb-2">2022 - 2023</p>
-              <p className="text-sm text-gray-300">Full Stack Web Development</p>
-              <p className="text-sm text-gray-300">Computer Science & Data Structures</p>
+              <h4 className="font-medium mb-1">ASSUMPTION UNIVERSITY</h4>
+              <p className="text-sm text-gray-400 mb-2">2016 - 2019</p>
+              <p className="text-sm text-gray-300"> Some college, no degree </p>
+              <p className="text-sm text-gray-300">Computer Science & ВВА</p>
             </div>
             <div>
-              <h4 className="font-medium mb-1">TECH INSTITUTE</h4>
-              <p className="text-sm text-gray-400 mb-2">2023</p>
-              <p className="text-sm text-gray-300">Advanced React Patterns</p>
-              <p className="text-sm text-gray-300">Senior Software Development</p>
+              <h4 className="font-medium mb-1">GENERATION THAILAND</h4>
+              <p className="text-sm text-gray-400 mb-2">2022</p>
+              <p className="text-sm text-gray-300">Bootcamp</p>
+              <p className="text-sm text-gray-300">Junior Software Developer</p>
             </div>
           </div>
         </div>
@@ -74,22 +75,20 @@ export default function Home() {
           <h3 className="text-sm text-gray-400 mb-6">WORK EXPERIENCE</h3>
           <div className="mb-8">
             <div className="flex justify-between mb-1">
-              <h4 className="font-medium">TechCorp Solutions</h4>
-              <p className="text-sm text-gray-400">01/2023 - Present</p>
+              <h4 className="font-medium">Millie Jewelry</h4>
+              <p className="text-sm text-gray-400">01/2023 - 05/2023</p>
             </div>
-            <p className="text-sm text-gray-300 mb-4">Software Engineer</p>
+            <p className="text-sm text-gray-300 mb-4">Software developer</p>
             <ul className="text-sm text-gray-300 space-y-2">
               <li>
-                - Designed, implemented, and maintained the company's e-commerce platform using the MERN stack to
-                support product showcasing, secure checkout, and customer engagement features.
+                - Designed, customized, and maintained the company's e-commerce website using the WIX platform 
+                to support product showcasing, secure checkout, and customer engagement features.
               </li>
               <li>
-                - Developed and optimized RESTful APIs to handle data processing and ensure seamless integration with
-                third-party services.
+                - Integrated third-party tools for payment processing, inventory tracking, and marketing automation.
               </li>
               <li>
-                - Collaborated with design and marketing teams to optimize site aesthetics, improve SEO performance, and
-                drive online traffic.
+                - Collaborated with design and marketing teams to optimize site aesthetics, improve SEO performance, and drive online traffic.
               </li>
             </ul>
           </div>
@@ -110,26 +109,29 @@ export default function Home() {
               <li>React.js (Intermediate)</li>
               <li>UI Design (Intermediate)</li>
               <li>Next.js (Intermediate)</li>
-              <li>Tailwind CSS (Advanced)</li>
+              <li>Tailwind CSS (Basic)</li>
+              <li>Typescript (Intermediate)</li>
+              <li>Figma (Intermediate)</li>
             </ul>
           </div>
           <div>
             <h3 className="font-medium mb-4">Back-End Development</h3>
             <ul className="text-sm text-gray-300 space-y-2">
-              <li>Node.js/Express.js (Intermediate)</li>
-              <li>MongoDB (Beginner)</li>
+              <li>MEAN stack (MongoDB, Express.js, Angular, 
+                Node.js) (intermediate) </li>
+              <li>MongoDB (Basicr)</li>
               <li>RESTful APIs (Intermediate)</li>
               <li>PostgreSQL (Beginner)</li>
-              <li>Firebase (Intermediate)</li>
             </ul>
           </div>
           <div>
             <h3 className="font-medium mb-4">Cloud / Tools</h3>
             <ul className="text-sm text-gray-300 space-y-2">
-              <li>AWS (Simple Cloud Deployment)</li>
+              <li>AWS / Google Cloud (Simple Cloud Deployment)</li>
               <li>Git/GitHub (Intermediate)</li>
-              <li>Docker (Beginner)</li>
+              <li>Docker (Basic)</li>
               <li>Vercel/Netlify (Intermediate)</li>
+              <li>WIX (Intermediate)</li>
             </ul>
           </div>
         </div>
@@ -140,11 +142,11 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-12">Featured projects</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {[1, 2, 3, 4, 5, 6].map((item) => (
+          {[1].map((item) => (
             <div key={item} className="group">
               <div className="relative overflow-hidden rounded-lg mb-4">
                 <Image
-                  src={`/placeholder.svg?height=400&width=600`}
+                  src={myImage}
                   alt="Project thumbnail"
                   width={600}
                   height={400}
@@ -174,12 +176,13 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <h3 className="font-medium mb-2">Project Name</h3>
+              <h3 className="font-medium mb-2">Fitness Tracker</h3>
               <p className="text-sm text-gray-300 mb-2">
-                A brief description of the project, what technologies were used, and what problem it solves.
+              This project was originally created as a Final Project for a Bootcamp, but has since been 
+              reworked with AI integration and a Supabase-powered backend.
               </p>
               <div className="text-xs text-gray-400">
-                <span>React</span> · <span>Tailwind</span> · <span>Node.js</span>
+                <span>React</span> · <span>Tailwind</span> · <span>TypeScript</span>
               </div>
             </div>
           ))}
